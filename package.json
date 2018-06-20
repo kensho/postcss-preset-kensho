@@ -1,0 +1,31 @@
+{
+  "name": "postcss-preset-kensho",
+  "version": "0.0.0",
+  "description": "Standard Kensho postcss pipeline",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint . && ava"
+  },
+  "repository": "kensho/postcss-preset-kensho",
+  "author": "Billy Janitsch <billy@kensho.com> (https://billyjanitsch.com)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^8.5.1",
+    "postcss": "^6.0.22",
+    "postcss-calc": "^6.0.1",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-flexbugs-fixes": "^3.3.1",
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.4",
+    "eslint": "^4.19.1",
+    "eslint-config-kensho": "5.0.0-alpha.3",
+    "husky": "1.0.0-rc.8",
+    "prettier": "^1.13.0"
+  }
+}
