@@ -14,18 +14,17 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.1.5",
-    "postcss": "^7.0.2",
-    "postcss-calc": "^6.0.1",
-    "postcss-custom-properties": "^8.0.3",
+    "postcss": "^7.0.5",
+    "postcss-calc": "^6.0.2",
+    "postcss-custom-properties": "^8.0.6",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-import": "^12.0.0",
     "postcss-nested": "^4.1.0"
   },
   "devDependencies": {
     "ava": "1.0.0-beta.8",
-    "eslint": "^5.6.0",
+    "eslint": "^5.6.1",
     "eslint-config-kensho": "^6.1.2",
-    "husky": "1.0.0-rc.13",
-    "prettier": "^1.14.2"
+    "prettier": "^1.14.3"
   }
 }
