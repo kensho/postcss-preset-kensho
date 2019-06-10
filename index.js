@@ -8,14 +8,12 @@ const nestedPlugin = require('postcss-nested')
 
 const pkg = require('./package.json')
 
-module.exports = postcss.plugin(pkg.name, userOptions => {
-  const options = {
-    browsers: ['Firefox >= 45', 'last 2 Chrome versions', 'IE >= 11'],
-    imports: true,
-    variables: {},
-    ...userOptions,
-  }
-  const {browsers, imports, variables} = options
+module.exports = postcss.plugin(pkg.name, (options = {}) => {
+  const {
+    browsers = ['Firefox >= 45', 'last 2 Chrome versions', 'IE >= 11'],
+    imports = true,
+    variables = {},
+  } = options
   const plugins = [
     imports && importPlugin(),
     variables &&

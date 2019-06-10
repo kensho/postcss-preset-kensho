@@ -13,18 +13,18 @@
   "author": "Billy Janitsch <billy@kensho.com> (https://billyjanitsch.com)",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.4.2",
-    "postcss": "^7.0.6",
+    "autoprefixer": "^9.6.0",
+    "postcss": "^7.0.17",
     "postcss-calc": "^7.0.1",
-    "postcss-custom-properties": "^8.0.9",
+    "postcss-custom-properties": "^8.0.10",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.1.1"
+    "postcss-nested": "^4.1.2"
   },
   "devDependencies": {
-    "ava": "^1.0.1",
-    "eslint": "^5.10.0",
-    "eslint-config-kensho": "^7.0.0",
-    "prettier": "^1.15.3"
+    "ava": "^2.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-kensho": "^10.1.0",
+    "prettier": "^1.18.2"
   }
 }
