@@ -2,9 +2,9 @@
 
 postcss-preset-kensho is the standard [postcss](http://postcss.org) pipeline used across Kensho projects. It includes:
 
-* [Autoprefixing](#autoprefixing)
-* [Nesting](#nesting)
-* [Variables](#variables)
+- [Autoprefixing](#autoprefixing)
+- [Nesting](#nesting)
+- [Variables](#variables)
 
 ## Install
 
@@ -26,7 +26,7 @@ module.exports = {
 
 ### Autoprefixing
 
-Vendor prefixes are [automatically added](https://github.com/postcss/autoprefixer) to properties, at rules, etc. to cover our [supported browsers](index.js). Browser support can be overridden by passing `{browsers: [...]}` as an option.
+Vendor prefixes are [automatically added](https://github.com/postcss/autoprefixer) to properties, at rules, etc.
 
 ### Nesting
 
