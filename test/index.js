@@ -1,9 +1,9 @@
-import fs from 'fs'
+const fs = require('fs')
 
-import test from 'ava'
-import postcss from 'postcss'
+const test = require('ava')
+const postcss = require('postcss')
 
-import plugin from '..'
+const plugin = require('..')
 
 async function snapshot(t, fixtureName) {
   const filename = `${__dirname}/fixtures/${fixtureName}.css`
