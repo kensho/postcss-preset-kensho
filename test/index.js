@@ -14,6 +14,5 @@ async function snapshot(t, fixtureName) {
   t.snapshot(result.css)
 }
 
-test('inlines imports', snapshot, 'imports')
 test('flattens nesting', snapshot, 'nesting')
 test('resolves variables', snapshot, 'variables')

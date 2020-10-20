@@ -1,5 +1,0 @@
-@import './variables.css';
-
-.bar {
-  height: var(--size);
-}
