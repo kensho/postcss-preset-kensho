@@ -7,24 +7,27 @@
     "index.js"
   ],
   "scripts": {
-    "test": "eslint . && ava"
+    "fix": "prettier -w . && eslint --fix .",
+    "test": "prettier -c . && eslint . && ava"
   },
   "repository": "kensho/postcss-preset-kensho",
   "author": "Billy Janitsch <billy@kensho.com> (https://billyjanitsch.com)",
   "license": "MIT",
+  "prettier": "@kensho-technologies/prettier-config",
   "dependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.34",
-    "postcss-calc": "^7.0.4",
+    "postcss": "^7.0.35",
+    "postcss-calc": "^7.0.5",
     "postcss-custom-properties": "^10.0.0",
     "postcss-flexbugs-fixes": "^4.2.1",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.3"
   },
   "devDependencies": {
-    "ava": "^3.12.1",
-    "eslint": "^7.9.0",
-    "eslint-config-kensho": "^18.0.0",
+    "@kensho-technologies/eslint-config": "^20.0.1",
+    "@kensho-technologies/prettier-config": "^1.0.0",
+    "ava": "^3.13.0",
+    "eslint": "^7.11.0",
     "prettier": "^2.1.2",
     "typescript": "^4.0.3"
   }
