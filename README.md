@@ -1,5 +1,8 @@
 # postcss-preset-kensho
 
+[![Build Status](https://img.shields.io/github/workflow/status/kensho/postcss-preset-kensho/CI/main)](https://github.com/kensho/postcss-preset-kensho/actions)
+[![npm](https://img.shields.io/npm/v/postcss-preset-kensho.svg)](https://npm.im/postcss-preset-kensho)
+
 postcss-preset-kensho is the standard [postcss](http://postcss.org) pipeline used across Kensho projects. It includes:
 
 - [Autoprefixing](#autoprefixing)
